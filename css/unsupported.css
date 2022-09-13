@@ -1,0 +1,32 @@
+
+.navigation{
+    display: none;
+}
+.navigation ul{
+    display: none;
+}
+.navigation ul li a{
+    display: none;
+}
+#title{
+    display: none;
+}
+.navigation ul, li, a:hover{
+    display: none;
+}
+
+h1{
+    display: none;
+}
+h3{
+    display: none;
+}
+img{
+    display: none;
+}
+.unsupported{
+    display: block;
+}
+#social{
+    display: none;
+}
