@@ -11,6 +11,8 @@
     align-items: center;
     justify-content: space-around;
     background-color: rgb(32, 28, 28);
+    display: flex;
+    top: 0;
 }
 .navigation ul{
     display: flex;
@@ -35,7 +37,7 @@
     color: red;
 }
 body{
-    background-color: #5984b3;
+    background-color: white;
 }
 h1{
     text-align: left;
@@ -74,4 +76,8 @@ img{
 }
 #social:hover{
     color: palevioletred;
+}
+header{
+    display: fixed;
+    top: 0;
 }

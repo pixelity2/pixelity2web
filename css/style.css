@@ -1,0 +1,43 @@
+h1{
+    color: rgb(85, 179, 67);
+}
+h3{
+    color: blue;
+}
+h3::selection{
+    color: green;
+    background-color: black;
+}
+h1::selection{
+    color: blue;
+    background-color: black; 
+}
+#social{
+    text-align: center;
+    color: blue;
+}
+#social:hover{
+    color: red;
+}
+#social::selection{
+    background-color: brown;
+    color: aqua;
+}
+iframe{
+    scale: 1;
+}
+body{
+    background-color: blanchedalmond;
+}
+button{
+    background-color: aquamarine;
+    border: none;
+    font-size: 22px;
+    padding: 18px;
+}
+.navigation{
+    margin-bottom: 30px;
+}
+button:hover{
+    cursor: pointer;
+}
